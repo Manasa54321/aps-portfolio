@@ -58,6 +58,25 @@ Each video segment can be represented as an interval or range, where each range 
 This structure improves the quality of usage even in fluctuating network conditions.
 
 
+
+# Database Management in OTTs
+
+Database management involves the efficient handling, storage, and retrieval of vast amounts of data, including user information, content metadata, streaming data, and analytics. Various data structures and algorithms are employed to ensure that these tasks are performed efficiently. The research paper [1] focuses on enhancing user experience on OTT platforms through efficient data management.
+
+## Data Structures Used
+
+### B+ Tree
+B-Trees and B+ Trees are commonly used in database indexing to provide efficient search, insertion, and deletion operations. B-Trees and B+ Trees ensure that the database can quickly locate records even in very large datasets. B trees have time complexity of O(logn) for insertion, deletion and search.
+
+### Hash Tables
+Hash Tables are used for fast lookups, especially in key-value stores and caching mechanisms. Hash tables are essential for quick access to frequently used data.
+
+### Trie
+Trie is very efficient for alphabetical data storage and retrieval. It is also used implementing autocomplete and prefix search features. Tries can be used to index and search for video titles and other metadata.
+
+### Knowledge Graphs
+Knowledge Graphs (Graph Database) are specifically developed and used for modelling relationships between entities, such as user interactions, social connections, and content recommendations.
+
 * * *
 
 ### Prerequisites
