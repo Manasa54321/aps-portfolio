@@ -77,6 +77,47 @@ Trie is very efficient for alphabetical data storage and retrieval. It is also u
 ### Knowledge Graphs
 Knowledge Graphs (Graph Database) are specifically developed and used for modelling relationships between entities, such as user interactions, social connections, and content recommendations.
 
+
+---
+
+# Recommendation Systems
+
+A Recommendation engine or recommendation system is an information filtering tool that provides the most relevant suggestions regarding products or services to various customers. A recommendation engine generally uses machine learning algorithms to collect and analyze user activities such as their preferences, search history, and others. Knowledge graphs also play an important role in such systems in an OTT.
+
+## Knowledge Graphs
+
+A knowledge graph, also known as a semantic network, represents a network of real-world entities—such as objects, events, situations, or concepts—and illustrates the relationships between them. This information is usually stored in a graph database and visualized as a graph structure, prompting the term "knowledge graph."
+
+### Graph Representation
+
+Knowledge graphs can be represented in various forms, including:
+- Adjacency lists
+- Adjacency matrices
+- Triple stores
+- Edge lists
+
+### Graph Traversal Algorithms
+
+#### Depth-First Search (DFS) and Breadth-First Search (BFS)
+
+DFS and BFS are used to explore nodes and relationships in the graph. They are useful for finding related entities or paths between nodes. The time complexity for both DFS and BFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+
+### Similarity Scores
+
+Similarity scores are generally determined by the cosine similarity algorithm.
+
+### Pathfinding Algorithms
+
+OTT platforms utilize algorithms like Dijkstra’s Algorithm and A* to calculate the shortest path between nodes in the knowledge graph. For instance, if a user has shown a preference for action movies directed by a specific director, Dijkstra’s Algorithm or A* can efficiently navigate the knowledge graph to recommend other action movies directed by the same director or featuring similar actors.
+
+#### Dijkstra’s Algorithm and A*
+
+Both Dijkstra's Algorithm and A* Algorithm have a time complexity of O((V + E) log V) with a binary heap, where V is the number of vertices and E is the number of edges in the graph.
+
+## Conclusion
+
+Knowledge graphs and graph traversal algorithms are essential components of recommendation systems in OTT platforms. They enable efficient exploration of relationships between entities and facilitate accurate and personalized recommendations for users.
+
 * * *
 
 ### Prerequisites
