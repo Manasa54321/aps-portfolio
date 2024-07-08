@@ -27,6 +27,16 @@ This page hosts:
 5. Challenges
 6. To-Do
 
+# Introduction
+OTT platforms, short for Over-The-Top platforms, are online streaming services that deliver video and audio content directly to users over the internet. These platforms have fundamentally transformed the media and entertainment industry by offering a direct means of delivering content over the internet, bypassing traditional distribution channels. These platforms provide users with on-demand access to a vast array of movies, TV shows, music, and other media, catering to diverse preferences and viewing habits.
+
+In the context of Algorithmic Problem Solving, OTT platforms present unique challenges and opportunities where the application of data structures and algorithms plays a crucial role in optimizing various aspects of platform operations. From enhancing user engagement through personalized recommendations to optimizing backend infrastructure for efficient content delivery, algorithmic solutions are integral to the success and scalability of OTT services.
+
+# Objectives
+Objectives for this portfolio project are:
+-1. Outline the business scenarios applicable to OTT platforms.
+-2. Recommend appropriate data structures and algorithms for implementation.
+-3. Provide a sample code example for these algorithms or data structures in the given scenario.
 
 # Adaptive Bitrate Streaming (ABR)
 
