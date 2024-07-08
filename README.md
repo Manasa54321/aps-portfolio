@@ -166,6 +166,23 @@ Generally, in CDNs, Consistent Hashing technique is used to distribute data acro
 - **Hash Ring**: Represents the circular space where both content and servers are mapped.
 - **Sorted Map**: Stores the positions of servers on the hash ring, allowing efficient look-up of the nearest server for any given content.
 
+
+# Data Compression
+
+Compressed video and audio files are significantly smaller than their uncompressed counterparts. This reduction in size means less data needs to be transferred over the network, making efficient use of available bandwidth. There are many video formats, which are used on multiple occasions. But, OTT Platforms usually use certain specific video formats, MKV, MP4, AVI, AVCHD. Any video file that we have is defined by the type of containers and codecs present in it.
+
+## Video Formats
+
+- **MKV**
+- **MP4**
+- **AVI**
+- **AVCHD**
+
+Any video file is defined by the type of containers and codecs present in it.
+
+## Huffman Coding
+
+Huffman coding is a widely used data compression algorithm that can be particularly useful in OTTs. OTT platforms manage extensive metadata for each piece of content, including titles, descriptions, actors, genres, etc. Compressing this metadata can save storage space and reduce retrieval times. Although Huffman coding is not typically used for the final compression of video and audio streams (which often rely on more complex algorithms like H.264, H.265, or VP9 for video, and AAC or MP3 for audio), it can be part of the initial steps in these algorithms.
 * * *
 
 ### Prerequisites
