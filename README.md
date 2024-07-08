@@ -59,17 +59,22 @@ Database management involves the efficient handling, storage, and retrieval of v
 
 ### Data Structures Used
 #### B+ Tree
-B-Trees and B+ Trees are commonly used in database indexing to provide efficient search, insertion, and deletion operations. B-Trees and B+ Trees ensure that the database can quickly locate records even in very large datasets. B trees have time complexity of O(logn) for insertion, deletion and search.
+B-Trees and B+ Trees are commonly used in database indexing to provide efficient search, insertion, and deletion operations. B-Trees and B+ Trees ensure that the database can quickly locate records even in very large datasets.
+B trees have time complexity of O(logn) for insertion, deletion and search and space complexity of O(n)
 
 View [B+ tree code](https://github.com/Manasa54321/aps-portfolio/blob/main/Bplus.cpp)
 
 #### Hash Tables
 Hash Tables are used for fast lookups, especially in key-value stores and caching mechanisms. Hash tables are essential for quick access to frequently used data.
+Time complexity: Insert/Delete/Search O(n)
+Space Complexity: O(n)
 
 View [Hash Table code](https://github.com/Manasa54321/aps-portfolio/blob/main/hash_table.cpp)
 
 #### Trie
 Trie is very efficient for alphabetical data storage and retrieval. It is also used implementing autocomplete and prefix search features. Tries can be used to index and search for video titles and other metadata.
+Time complexity: Insert/Search O(n)
+Space Complexity: O(n)
 
 View [Trie code](https://github.com/Manasa54321/aps-portfolio/blob/main/trie.cpp)
 
@@ -104,6 +109,7 @@ An inverted index is constructed by tokenizing the words of a document, stemming
 ![KMP Algorithm](https://media.geeksforgeeks.org/wp-content/uploads/20221125004358/image-660x398.png)
 
 One more feature found in OTT platform searches is Autocompletion. This uses the Trie data structure for content handling and storage. Autocomplete search can be of simple implementation using Knuth-Morris-Pratt (KMP) Algorithm (prefix matching) which has O(n + m) time complexity, where ‘m’ is the length of the pattern and ‘n’ is the length of the text. But complexity is when they have to be ranked which is achieved by PageRank algorithm.
+Time complexity: O(n + m) time complexity, where ‘m’ is the length of the pattern and ‘n’ is the length of the text.
 
 View [KMP Algorithm Code](https://github.com/Manasa54321/aps-portfolio/blob/main/KMP.cpp)
 
@@ -135,7 +141,8 @@ Knowledge graphs can be represented in various forms, including:
 ### Graph Traversal Algorithms
 #### Depth-First Search (DFS) and Breadth-First Search (BFS)
 
-DFS and BFS are used to explore nodes and relationships in the graph. They are useful for finding related entities or paths between nodes. The time complexity for both DFS and BFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+DFS and BFS are used to explore nodes and relationships in the graph. They are useful for finding related entities or paths between nodes.
+The time complexity for both DFS and BFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 
 View [DFS code](https://github.com/Manasa54321/aps-portfolio/blob/main/dfs.cpp)
 
@@ -176,6 +183,7 @@ When a user streams the video, the player dynamically switches between different
 ### Segment Trees in Transcoding
 
 Segment Trees can be mainly used in the transcoding step. A Segment Tree is a data structure that stores data about a range of elements in nodes as a tree. It is mostly used to handle range queries with updates efficiently, with a time complexity of O(log n).
+Time complexity: O(log n).
 
 #### Usage in ABR
 
@@ -229,6 +237,8 @@ Any video file is defined by the type of containers and codecs present in it.
 
 Huffman coding is a widely used data compression algorithm that can be particularly useful in OTTs. OTT platforms manage extensive metadata for each piece of content, including titles, descriptions, actors, genres, etc. Compressing this metadata can save storage space and reduce retrieval times. Although Huffman coding is not typically used for the final compression of video and audio streams (which often rely on more complex algorithms like H.264, H.265, or VP9 for video, and AAC or MP3 for audio), it can be part of the initial steps in these algorithms.
 
+The time complexity of the Huffman coding algorithm is O(n log n), where n is the number of unique characters or symbols in the input data
+
 View [Huffman Coding code](https://github.com/Manasa54321/aps-portfolio/blob/main/huffman_coding.cpp)
 
 * * *
@@ -240,10 +250,17 @@ Hash Tables: Efficient for storing user information such as username, email, pas
 Linked Lists: Useful for maintaining a history of user transactions, including subscription upgrades, downgrades, and cancellations.
 
 View [Hash Tables code](https://github.com/Manasa54321/aps-portfolio/blob/main/hash_table.cpp)
+Time Complexity: Insert/Delete/Search: O(n)
+Space Complexity: O(n)
 
 View [LInked List code](https://github.com/Manasa54321/aps-portfolio/blob/main/linked_list.cpp)
+Time Complexity: Insert/Delete/Search: O(n)
+Space Complexity: O(1)
 
 For the Subscription Plans, Binary Search Trees are suitable for organizing subscription plans based on features, pricing tiers, and duration. They allow for efficient searching and updating of plans.
+
+Time Complexity: Insert/Delete/Search: O(n)
+Space Complexity: O(n)
 
 View [BST code](https://github.com/Manasa54321/aps-portfolio/blob/main/BST.cpp)
 
