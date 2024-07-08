@@ -34,9 +34,9 @@ In the context of Algorithmic Problem Solving, OTT platforms present unique chal
 
 # Objectives
 Objectives for this portfolio project are:
--1. Outline the business scenarios applicable to OTT platforms.
--2. Recommend appropriate data structures and algorithms for implementation.
--3. Provide a sample code example for these algorithms or data structures in the given scenario.
+1. Outline the business scenarios applicable to OTT platforms.
+2. Recommend appropriate data structures and algorithms for implementation.
+3. Provide a sample code example for these algorithms or data structures in the given scenario.
 
 # Adaptive Bitrate Streaming (ABR)
 
@@ -63,10 +63,8 @@ Segment Trees can be mainly used in the transcoding step. A Segment Tree is a da
 
 Each video segment can be represented as an interval or range, where each range corresponds to a specific bitrate or resolution. The tree can be built and queried whenever required and is particularly useful for Dynamic Switching. As network conditions change, the segment tree can quickly adjust and provide the suitable segment. We can re-query the segment tree whenever there is a significant change in network conditions and dynamically switch to the new segment that matches the updated network condition.
 
-### Benefits
-
 This structure improves the quality of usage even in fluctuating network conditions.
-
+View [segment tree code] (https://github.com/Manasa54321/aps-portfolio/blob/main/segment_tree.cpp)
 
 
 # Database Management in OTTs
@@ -77,16 +75,18 @@ Database management involves the efficient handling, storage, and retrieval of v
 
 ### B+ Tree
 B-Trees and B+ Trees are commonly used in database indexing to provide efficient search, insertion, and deletion operations. B-Trees and B+ Trees ensure that the database can quickly locate records even in very large datasets. B trees have time complexity of O(logn) for insertion, deletion and search.
+View [B+ tree code] (https://github.com/Manasa54321/aps-portfolio/blob/main/segment_tree.cpp)
 
 ### Hash Tables
 Hash Tables are used for fast lookups, especially in key-value stores and caching mechanisms. Hash tables are essential for quick access to frequently used data.
+View [Hash Table code] (https://github.com/Manasa54321/aps-portfolio/blob/main/segment_tree.cpp)
 
 ### Trie
 Trie is very efficient for alphabetical data storage and retrieval. It is also used implementing autocomplete and prefix search features. Tries can be used to index and search for video titles and other metadata.
+View [Trie code] (https://github.com/Manasa54321/aps-portfolio/blob/main/segment_tree.cpp)
 
 ### Knowledge Graphs
 Knowledge Graphs (Graph Database) are specifically developed and used for modelling relationships between entities, such as user interactions, social connections, and content recommendations.
-
 
 ---
 
