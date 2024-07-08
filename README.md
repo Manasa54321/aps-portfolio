@@ -195,5 +195,13 @@ Any video file is defined by the type of containers and codecs present in it.
 Huffman coding is a widely used data compression algorithm that can be particularly useful in OTTs. OTT platforms manage extensive metadata for each piece of content, including titles, descriptions, actors, genres, etc. Compressing this metadata can save storage space and reduce retrieval times. Although Huffman coding is not typically used for the final compression of video and audio streams (which often rely on more complex algorithms like H.264, H.265, or VP9 for video, and AAC or MP3 for audio), it can be part of the initial steps in these algorithms.
 * * *
 
+# Subscription Management
+
+For User Account Management Hash Tables and linked lists can be used.
+Hash Tables: Efficient for storing user information such as username, email, password hashes, and subscription details. Allows for quick lookup and retrieval.
+Linked Lists: Useful for maintaining a history of user transactions, including subscription upgrades, downgrades, and cancellations.
+
+For the Subscription Plans, Binary Search Trees are suitable for organizing subscription plans based on features, pricing tiers, and duration. They allow for efficient searching and updating of plans.
+
 ### Prerequisites
 * Code List 1 [Union-Find](https://github.com/prakashbh/day-today-codes/blob/master/10-union-find-basic.c) concepts.
