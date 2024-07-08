@@ -47,7 +47,7 @@ Objectives for this portfolio project are:
 * * *
 
 # OTT System Design
-![OTT System Design](https://github.com/Manasa54321/aps-portfolio/blob/main/video-delivery.png)
+![OTT System Design](https://github.com/kanmaytacker/system-design/blob/master/OTT/media/video-delivery.png)
 
 * * *
 
