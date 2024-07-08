@@ -114,9 +114,34 @@ OTT platforms utilize algorithms like Dijkstra’s Algorithm and A* to calculate
 
 Both Dijkstra's Algorithm and A* Algorithm have a time complexity of O((V + E) log V) with a binary heap, where V is the number of vertices and E is the number of edges in the graph.
 
-## Conclusion
+# Searching of Data
 
-Knowledge graphs and graph traversal algorithms are essential components of recommendation systems in OTT platforms. They enable efficient exploration of relationships between entities and facilitate accurate and personalized recommendations for users.
+An Inverted Index is a data structure used in information retrieval systems to efficiently retrieve documents or web pages containing a specific term or set of terms. In an inverted index, the index is organized by terms (words), and each term points to a list of documents or web pages that contain that term. It is widely used in databases for efficient search. In OTTs, it finds content based on keywords and phrases.
+
+## Usage in OTTs
+
+### Keyword Search
+When a user enters a search query, the platform tokenizes and normalizes the query.
+
+### Query Processing
+The platform looks up the terms in the inverted index and retrieves the corresponding postings lists.
+
+### Result Ranking
+The results are ranked based on relevance, often using factors like term frequency, document frequency, and other relevance metrics.
+
+### Display Results
+The platform displays the ranked list of content items matching the search query.
+
+### Construction
+An inverted index is constructed by tokenizing the words of a document, stemming the root word, and then recording Document IDs.
+
+## Autocompletion
+
+One more feature found in OTT platform searches is Autocompletion. This uses the Trie data structure for content handling and storage. Autocomplete search can be of simple implementation using Knuth-Morris-Pratt (KMP) Algorithm (prefix matching) which has O(n + m) time complexity, where ‘m’ is the length of the pattern and ‘n’ is the length of the text. But complexity is when they have to be ranked which is achieved by PageRank algorithm.
+
+### PageRank
+
+PageRank is an algorithm originally developed by Google to rank web pages in their search engine results. It can be adapted to rank nodes in a graph based on their importance or influence. It uses Graph data structure to model its entities.
 
 * * *
 
