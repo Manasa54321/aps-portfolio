@@ -147,7 +147,9 @@ Similarity scores are generally determined by the cosine similarity algorithm.
 
 OTT platforms utilize algorithms like Dijkstra’s Algorithm and A* to calculate the shortest path between nodes in the knowledge graph. For instance, if a user has shown a preference for action movies directed by a specific director, Dijkstra’s Algorithm or A* can efficiently navigate the knowledge graph to recommend other action movies directed by the same director or featuring similar actors.
 
-#### Dijkstra’s Algorithm and A*
+Dijkstra’s Algorithm :
+
+![Dijkstra's Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
 
 Both Dijkstra's Algorithm and A* Algorithm have a time complexity of O((V + E) log V) with a binary heap, where V is the number of vertices and E is the number of edges in the graph.
 
