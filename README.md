@@ -36,6 +36,8 @@ OTT platforms, short for Over-The-Top platforms, are online streaming services t
 
 In the context of Algorithmic Problem Solving, OTT platforms present unique challenges and opportunities where the application of data structures and algorithms plays a crucial role in optimizing various aspects of platform operations. From enhancing user engagement through personalized recommendations to optimizing backend infrastructure for efficient content delivery, algorithmic solutions are integral to the success and scalability of OTT services.
 
+![OTTs](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMIVdKcYTnVsznWocI1k3TDTCGdSnsw21_cQ&s)
+
 * * *
 
 # Objectives
