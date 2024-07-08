@@ -124,7 +124,7 @@ OTT platforms utilize algorithms like Dijkstra’s Algorithm and A* to calculate
 #### Dijkstra’s Algorithm and A*
 
 Both Dijkstra's Algorithm and A* Algorithm have a time complexity of O((V + E) log V) with a binary heap, where V is the number of vertices and E is the number of edges in the graph.
-View [Trie code](https://github.com/Manasa54321/aps-portfolio/blob/main/trie.cpp)
+View [Trie code](https://github.com/Manasa54321/aps-portfolio/blob/main/dijkstra_algorithm.cpp)
 View [Trie code](https://github.com/Manasa54321/aps-portfolio/blob/main/A_star.cpp)
 
 # Searching of Data
@@ -134,17 +134,13 @@ View [Trie code](https://github.com/Manasa54321/aps-portfolio/blob/main/inverted
 
 ## Usage in OTTs
 
-### Keyword Search
-When a user enters a search query, the platform tokenizes and normalizes the query.
+Keyword Search: When a user enters a search query, the platform tokenizes and normalizes the query.
 
-### Query Processing
-The platform looks up the terms in the inverted index and retrieves the corresponding postings lists.
+Query Processing: The platform looks up the terms in the inverted index and retrieves the corresponding postings lists.
 
-### Result Ranking
-The results are ranked based on relevance, often using factors like term frequency, document frequency, and other relevance metrics.
+Result Ranking: The results are ranked based on relevance, often using factors like term frequency, document frequency, and other relevance metrics.
 
-### Display Results
-The platform displays the ranked list of content items matching the search query.
+Display Results: The platform displays the ranked list of content items matching the search query.
 
 ### Construction
 An inverted index is constructed by tokenizing the words of a document, stemming the root word, and then recording Document IDs.
@@ -156,6 +152,7 @@ One more feature found in OTT platform searches is Autocompletion. This uses the
 ### PageRank
 
 PageRank is an algorithm originally developed by Google to rank web pages in their search engine results. It can be adapted to rank nodes in a graph based on their importance or influence. It uses Graph data structure to model its entities.
+View [Pagerank algorithm](https://github.com/louridas/pagerank)![image](https://github.com/Manasa54321/aps-portfolio/assets/105267382/08e9f040-7de5-40e7-8121-bb2d9df04619)  implementation
 
 # User Experience
 
@@ -164,6 +161,7 @@ In OTT platforms, efficient content delivery and distribution are critical to pr
 ## Content Caching
 
 Content caching involves storing copies of frequently accessed content closer to the user to reduce latency and bandwidth usage. This is essential for OTT platforms to deliver high-quality video streams without buffering. Commonly, LRU (Least Recently Used) cache is used for this purpose. LRU is a scheduling algorithm that evicts the least recently accessed items first when the cache reaches its capacity.
+View [LRU cache implementation](https://github.com/Manasa54321/aps-portfolio/blob/main/LRu_cache.cpp)
 
 ## CDN
 
@@ -179,7 +177,7 @@ Generally, in CDNs, Consistent Hashing technique is used to distribute data acro
 
 - **Hash Ring**: Represents the circular space where both content and servers are mapped.
 - **Sorted Map**: Stores the positions of servers on the hash ring, allowing efficient look-up of the nearest server for any given content.
-
+View [Consistent hashing](https://github.com/phaistos-networks/ConsistentHashing/blob/master/consistent_hashing.h) implementation
 
 # Data Compression
 
@@ -197,6 +195,7 @@ Any video file is defined by the type of containers and codecs present in it.
 ## Huffman Coding
 
 Huffman coding is a widely used data compression algorithm that can be particularly useful in OTTs. OTT platforms manage extensive metadata for each piece of content, including titles, descriptions, actors, genres, etc. Compressing this metadata can save storage space and reduce retrieval times. Although Huffman coding is not typically used for the final compression of video and audio streams (which often rely on more complex algorithms like H.264, H.265, or VP9 for video, and AAC or MP3 for audio), it can be part of the initial steps in these algorithms.
+View [Huffman Coding code](https://github.com/Manasa54321/aps-portfolio/blob/main/huffman_coding.cpp)
 * * *
 
 # Subscription Management
@@ -204,8 +203,12 @@ Huffman coding is a widely used data compression algorithm that can be particula
 For User Account Management Hash Tables and linked lists can be used.
 Hash Tables: Efficient for storing user information such as username, email, password hashes, and subscription details. Allows for quick lookup and retrieval.
 Linked Lists: Useful for maintaining a history of user transactions, including subscription upgrades, downgrades, and cancellations.
+View [Hash Tables code](https://github.com/Manasa54321/aps-portfolio/blob/main/hash_table.cpp)
+View [LInked List code](https://github.com/Manasa54321/aps-portfolio/blob/main/linked_list.cpp)
 
 For the Subscription Plans, Binary Search Trees are suitable for organizing subscription plans based on features, pricing tiers, and duration. They allow for efficient searching and updating of plans.
 
-### Prerequisites
-* Code List 1 [Union-Find](https://github.com/prakashbh/day-today-codes/blob/master/10-union-find-basic.c) concepts.
+View [BST code](https://github.com/Manasa54321/aps-portfolio/blob/main/BST.cpp)
+
+# Conclusion
+Algorithmic Problem Solving in OTT platforms focuses on using data structures and algorithms to address specific business challenges such as enhancing user experience, optimizing content delivery, and improving backend operations. By applying these techniques, OTT platforms can streamline their operations, deliver high-quality content efficiently, and ultimately provide a seamless and satisfying user experience.
