@@ -99,7 +99,12 @@ An inverted index is constructed by tokenizing the words of a document, stemming
 
 ### Autocompletion
 
+![KMP Algorithm](https://media.geeksforgeeks.org/wp-content/uploads/20221125004358/image-660x398.png)
+
 One more feature found in OTT platform searches is Autocompletion. This uses the Trie data structure for content handling and storage. Autocomplete search can be of simple implementation using Knuth-Morris-Pratt (KMP) Algorithm (prefix matching) which has O(n + m) time complexity, where ‘m’ is the length of the pattern and ‘n’ is the length of the text. But complexity is when they have to be ranked which is achieved by PageRank algorithm.
+
+View [KMP Algorithm Code](https://github.com/Manasa54321/aps-portfolio/blob/main/KMP.cpp)
+
 
 #### PageRank
 
