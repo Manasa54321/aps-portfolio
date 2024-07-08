@@ -53,7 +53,7 @@ Objectives for this portfolio project are:
 
 # Database Management in OTTs
 
-Database management involves the efficient handling, storage, and retrieval of vast amounts of data, including user information, content metadata, streaming data, and analytics. Various data structures and algorithms are employed to ensure that these tasks are performed efficiently. The research paper [1] focuses on enhancing user experience on OTT platforms through efficient data management.
+Database management involves the efficient handling, storage, and retrieval of vast amounts of data, including user information, content metadata, streaming data, and analytics. Various data structures and algorithms are employed to ensure that these tasks are performed efficiently. The research [paper](https://www.researchgate.net/publication/352081148_Proposed_DBMS_for_OTT_platforms_in_line_with_new_age_requirements) gives insights on enhancing user experience on OTT platforms through efficient data management.
 
 ### Data Structures Used
 #### B+ Tree
@@ -240,3 +240,34 @@ View [BST code](https://github.com/Manasa54321/aps-portfolio/blob/main/BST.cpp)
 
 # Conclusion
 Algorithmic Problem Solving in OTT platforms focuses on using data structures and algorithms to address specific business challenges such as enhancing user experience, optimizing content delivery, and improving backend operations. By applying these techniques, OTT platforms can streamline their operations, deliver high-quality content efficiently, and ultimately provide a seamless and satisfying user experience.
+
+# References
+
+1. Wikipedia contributors, "Over-the-top media service," Wikipedia, The Free Encyclopedia. Available: https://en.wikipedia.org/wiki/Over-the-top_media_service. [Accessed: Jul. 8, 2024].
+
+2. Medium, "Smart Recommendation System for OTT Platforms," Mobiotics. Available: https://medium.com/mobiotics/smart-recommendation-system-for-ott-platforms-f0e79b8e520. [Accessed: Jul. 8, 2024].
+
+3. DLSU, "Utilizing the Cosine Similarity Algorithm for Recommendation Systems," Animo Repository. Available: https://animorepository.dlsu.edu.ph/cgi/viewcontent.cgi?article=1801&context=conf_shsrescon#:~:text=By%20utilizing%20the%20cosine%20similarity,using%20the%20cosine%20similarity%20algorithm. [Accessed: Jul. 8, 2024].
+
+4. IBM, "Knowledge Graph," IBM. Available: https://www.ibm.com/topics/knowledge-graph. [Accessed: Jul. 8, 2024].
+
+5. Bitmovin, "Adaptive Streaming," Bitmovin. Available: https://bitmovin.com/adaptive-streaming. [Accessed: Jul. 8, 2024].
+
+6. GeeksforGeeks, "Segment Tree Data Structure," GeeksforGeeks. Available: https://www.geeksforgeeks.org/segment-tree-data-structure/. [Accessed: Jul. 8, 2024].
+
+7. ResearchGate, "Proposed DBMS for OTT Platforms in Line with New Age Requirements," ResearchGate. Available: https://www.researchgate.net/publication/352081148_Proposed_DBMS_for_OTT_platforms_in_line_with_new_age_requirements#pf9. [Accessed: Jul. 8, 2024].
+
+8. GeeksforGeeks, "Inverted Index," GeeksforGeeks. Available: https://www.geeksforgeeks.org/inverted-index/. [Accessed: Jul. 8, 2024].
+
+9. PrepBytes, "String Matching Algorithm," PrepBytes. Available: https://www.prepbytes.com/blog/strings/string-matching-algorithm/. [Accessed: Jul. 8, 2024].
+
+10. Medium, "How the Cloud and CDN Architecture Works for Netflix," ResellerClub. Available: https://teamresellerclub.medium.com/how-the-cloud-and-cdn-architecture-works-for-netflix-8f3d17906782. [Accessed: Jul. 8, 2024].
+
+11. Muvi, "The Best Video Format for OTT Platforms Decoded," Muvi. Available: https://www.muvi.com/blogs/the-best-video-format-for-ott-platforms-decoded/. [Accessed: Jul. 8, 2024].
+
+12. GitHub, "PageRank," GitHub. Available: https://github.com/louridas/pagerank. [Accessed: Jul. 8, 2024].
+
+13. GitHub, "Consistent Hashing," GitHub. Available: https://github.com/phaistos-networks/ConsistentHashing/blob/master/consistent_hashing.h. [Accessed: Jul. 8, 2024].
+
+14. GitHub, "OTT Media Video Delivery," GitHub. Available: https://github.com/kanmaytacker/system-design/blob/master/OTT/media/video-delivery.png. [Accessed: Jul. 8, 2024].
+
