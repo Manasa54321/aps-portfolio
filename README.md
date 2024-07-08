@@ -143,6 +143,29 @@ One more feature found in OTT platform searches is Autocompletion. This uses the
 
 PageRank is an algorithm originally developed by Google to rank web pages in their search engine results. It can be adapted to rank nodes in a graph based on their importance or influence. It uses Graph data structure to model its entities.
 
+# User Experience
+
+In OTT platforms, efficient content delivery and distribution are critical to providing a seamless user experience. Two key techniques used in this context are content caching and CDN (Content Delivery Network) management.
+
+## Content Caching
+
+Content caching involves storing copies of frequently accessed content closer to the user to reduce latency and bandwidth usage. This is essential for OTT platforms to deliver high-quality video streams without buffering. Commonly, LRU (Least Recently Used) cache is used for this purpose. LRU is a scheduling algorithm that evicts the least recently accessed items first when the cache reaches its capacity.
+
+## CDN
+
+A CDN is a network of distributed servers that deliver content to users based on their geographic location.
+
+### CDN in Netflix
+
+Netflix knows very well that if a video takes five more seconds than usual, and this happens a few too many times, they will lose subscribers. With the help of an intelligent CDN, when we hit the play button, the video can be fetched from multiple locations. They migrated to AWS for cloud storage and computing to achieve scalability and flexibility. They implemented their own CDN, OpenConnect, to optimize content delivery and reduce buffering by caching content locally at ISPs. This architecture ensures rapid, reliable video streaming and minimizes downtime. Netflix also contributes to the tech community by open-sourcing their AWS tools.
+
+### Consistent Hashing in CDNs
+
+Generally, in CDNs, Consistent Hashing technique is used to distribute data across a distributed system in a way that minimizes reorganization when nodes are added or removed. It uses data structures like:
+
+- **Hash Ring**: Represents the circular space where both content and servers are mapped.
+- **Sorted Map**: Stores the positions of servers on the hash ring, allowing efficient look-up of the nearest server for any given content.
+
 * * *
 
 ### Prerequisites
