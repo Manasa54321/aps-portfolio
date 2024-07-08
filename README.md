@@ -247,6 +247,15 @@ For the Subscription Plans, Binary Search Trees are suitable for organizing subs
 
 View [BST code](https://github.com/Manasa54321/aps-portfolio/blob/main/BST.cpp)
 
+# Load Balancing
+
+The **Assignment Problem**, traditionally used in operations research to optimize resource allocation, can be applied to load balancing and fault tolerance in OTT platforms. It involves assigning a set of tasks (e.g., user requests) to a set of agents (e.g., servers) in a way that minimizes the total cost or maximizes efficiency. 
+The task is each server is an agent, and each incoming request is a task. The goal is to assign requests to servers to balance the load while minimizing latency or maximizing resource utilization. We should continuously update the cost matrix based on real-time metrics like current server load, latency, and network conditions. The **Hungarian algorithm** can be used to solve the assignment problem efficiently.
+
+Time Complexity: O(N^3)
+
+View [Hungarian algorithm code](https://github.com/Manasa54321/aps-portfolio/blob/main/assignment_problem.cpp)
+
 # Conclusion
 Algorithmic Problem Solving in OTT platforms focuses on using data structures and algorithms to address specific business challenges such as enhancing user experience, optimizing content delivery, and improving backend operations. By applying these techniques, OTT platforms can streamline their operations, deliver high-quality content efficiently, and ultimately provide a seamless and satisfying user experience.
 
