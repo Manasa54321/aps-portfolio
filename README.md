@@ -104,7 +104,7 @@ Display Results: The platform displays the ranked list of content items matching
 #### Construction
 An inverted index is constructed by tokenizing the words of a document, stemming the root word, and then recording Document IDs.
 
-### Autocompletion
+# Autocompletion
 
 ![KMP Algorithm](https://media.geeksforgeeks.org/wp-content/uploads/20221125004358/image-660x398.png)
 
@@ -205,7 +205,7 @@ Content caching involves storing copies of frequently accessed content closer to
 
 View [LRU cache implementation](https://github.com/Manasa54321/aps-portfolio/blob/main/LRu_cache.cpp)
 
-### CDN
+# CDN
 
 A CDN is a network of distributed servers that deliver content to users based on their geographic location.
 
@@ -263,6 +263,8 @@ Time Complexity: Insert/Delete/Search: O(n)
 Space Complexity: O(n)
 
 View [BST code](https://github.com/Manasa54321/aps-portfolio/blob/main/BST.cpp)
+
+![BST Traversal](https://upload.wikimedia.org/wikipedia/commons/4/48/Inorder-traversal.gif)
 
 # Load Balancing
 
