@@ -104,6 +104,8 @@ Display Results: The platform displays the ranked list of content items matching
 #### Construction
 An inverted index is constructed by tokenizing the words of a document, stemming the root word, and then recording Document IDs.
 
+* * *
+
 # Autocompletion
 
 ![KMP Algorithm](https://media.geeksforgeeks.org/wp-content/uploads/20221125004358/image-660x398.png)
@@ -204,6 +206,8 @@ In OTT platforms, efficient content delivery and distribution are critical to pr
 Content caching involves storing copies of frequently accessed content closer to the user to reduce latency and bandwidth usage. This is essential for OTT platforms to deliver high-quality video streams without buffering. Commonly, LRU (Least Recently Used) cache is used for this purpose. LRU is a scheduling algorithm that evicts the least recently accessed items first when the cache reaches its capacity.
 
 View [LRU cache implementation](https://github.com/Manasa54321/aps-portfolio/blob/main/LRu_cache.cpp)
+
+* * *
 
 # CDN
 
